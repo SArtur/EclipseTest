@@ -1,0 +1,2 @@
+module eclipsetest {
+}
