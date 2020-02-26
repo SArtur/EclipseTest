@@ -4,7 +4,7 @@ public class HelperClass {
 
 	public static String sayHello() {
 		
-		return "Eclipse Hello!";
+		return "Eclipse Hello and Goodbye!";
 	}
 
 }
