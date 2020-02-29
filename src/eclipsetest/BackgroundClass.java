@@ -13,12 +13,17 @@ Thread thread = new Thread (() -> {System.out.println("yo");});
 			Thread thread = new Thread(() -> {System.out.println("No treatment needed.");});
 		}
 	}
-	
 	String conflictFunction (String s) {
-		return s + "conf";
+		return s + "nothing";
 	}
 	
-	String conflictFunctionNoTwo (String s) {
-		return s + "conf";
+	int conflictFunctionNoTwo (String s) {
+		return s.equals("nothing")? 1 : 0;
 	}
+
+	boolean conflictFunctionNoThree (String s) {
+		return s.equals("boolean")? true : false ;
+	}
+	
+	
 }
