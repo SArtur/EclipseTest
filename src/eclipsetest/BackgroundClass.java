@@ -20,7 +20,10 @@ Thread thread = new Thread (() -> {System.out.println("yo");});
 	int conflictFunctionNoTwo (String s) {
 		return s.equals("nothing")? 1 : 0;
 	}
+
 	boolean conflictFunctionNoThree (String s) {
-		return s.equals("boolean")? false : true ;
+		return s.equals("boolean")? true : false ;
 	}
+	
+	
 }
