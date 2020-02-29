@@ -13,4 +13,12 @@ Thread thread = new Thread (() -> {System.out.println("yo");});
 			Thread thread = new Thread(() -> {System.out.println("No treatment needed.");});
 		}
 	}
+	
+	String conflictFunction (String s) {
+		return s + "conf";
+	}
+	
+	String conflictFunctionNoTwo (String s) {
+		return s + "conf";
+	}
 }
