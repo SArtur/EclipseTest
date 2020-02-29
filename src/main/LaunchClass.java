@@ -1,4 +1,4 @@
-package eclipsetest;
+package main;
 
 public class LaunchClass {
 
