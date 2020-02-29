@@ -21,4 +21,9 @@ Thread thread = new Thread (() -> {System.out.println("yo");});
 		return s.equals("nothing")? 1 : 0;
 	}
 	
+	boolean conflictFunctionNoThree (String s) {
+		return s.equals("boolean")? true : false ;
+	}
+	
+	
 }
